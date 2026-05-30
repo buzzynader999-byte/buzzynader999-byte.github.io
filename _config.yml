@@ -19,7 +19,7 @@ timezone: Asia/Tehran
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Nader # the main title
+title: وبسایت نادر # the main title
 
 tagline: A Game Developer # it will display as the subtitle
 
@@ -256,8 +256,24 @@ highlighter: rouge
 # صفحه اصلی
 paginate_path: "page/:num"
 
-# سایدبار
-comments:
-  active: true
+# تنظیمات بهتر برای فارسی
+permalink: /:title/           # آدرس تمیز برای پست‌ها
 
-  
+# منوی ناوبری
+tabs:
+  - name: خانه
+    path: /
+    url: /
+  - name: درباره من
+    path: /about/
+    url: /about/
+  - name: آرشیو
+    path: /archives/
+    url: /archives/
+  - name: دسته‌بندی‌ها
+    path: /categories/
+    url: /categories/
+
+# فعال کردن کامنت (بعداً Disqus یا Giscus تنظیم می‌کنیم)
+comments:
+  active: false     # فعلاً خاموش
