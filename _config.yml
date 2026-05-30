@@ -10,11 +10,7 @@ lang: fa
 languages: ["fa", "en"]
 rtl: true
 locale: fa_IR
-fonts:
-  sans_serif:
-    - "Vazirmatn"
-    - "Tahoma"
-    - system-ui
+
     
 date_format: "%Y/%m/%d"
 # Change to your timezone › https://zones.arilyn.cc
@@ -117,6 +113,9 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+toc:
+  title: فهرست مطالب
+  
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -234,3 +233,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+fonts:
+  sans_serif:
+    - "Vazirmatn"
+    - system-ui
+    - -apple-system
+    - BlinkMacSystemFont
+    - "Segoe UI"
+    - Roboto
+    - "Helvetica Neue"
+    - Arial
+    - "Noto Sans"
+
+  
