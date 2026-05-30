@@ -115,7 +115,7 @@ toc: true
 
 toc:
   title: فهرست مطالب
-  
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -245,5 +245,19 @@ fonts:
     - "Helvetica Neue"
     - Arial
     - "Noto Sans"
+
+# تنظیمات مخصوص فارسی
+excerpt_separator: <!--more-->
+
+# ظاهر بهتر برای RTL
+markdown: kramdown
+highlighter: rouge
+
+# صفحه اصلی
+paginate_path: "page/:num"
+
+# سایدبار
+comments:
+  active: true
 
   
